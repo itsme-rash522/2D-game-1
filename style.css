@@ -1,0 +1,420 @@
+.b {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url("background.png");
+    background-size: cover;
+
+    background-repeat: repeat-x;
+
+    overflow: hidden;
+}
+
+.body {
+    margin: 0px;
+}
+
+.sword {
+    position: absolute;
+    height: 80px;
+    margin-top: 765px;
+}
+
+.target {
+    position: absolute;
+    height: 400px;
+    margin-top: 440px;
+    margin-left: 280px;
+    visibility: hidden;
+}
+
+.boy {
+    position: absolute;
+    height: 220px;
+    margin-top: 630px;
+    margin-left: 150px;
+}
+
+.score {
+    position: absolute;
+    font-family: "f2";
+    font-size: 150px;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-left: 300px;
+    color: white;
+}
+
+.end {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+
+    background-image: url("bg4.jpg");
+    background-size: cover;
+
+    font-family: "f4";
+    font-size: 90px;
+    font-weight: bold;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    visibility: hidden;
+
+}
+
+.btn {
+    height: 60px;
+    width: 300px;
+    background-color: rgba(238, 38, 38, 0.856);
+    color: white;
+    font-family: "f5";
+    font-size: 40px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgba(255, 0, 0, 0.705);
+    font-size: 50px;
+
+}
+
+.gameover {
+    background-color: rgba(250, 86, 86, 0.267);
+    border-radius: 20px;
+    font-family: "f2";
+}
+
+.scoreicon {
+    position: absolute;
+    height: 150px;
+    margin-top: -5px;
+    margin-left: -8px;
+}
+
+.scorename {
+    position: absolute;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 15px;
+    color: white;
+    font-family: "f2";
+
+}
+
+.b2 {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg2.png");
+    background-size: cover;
+}
+
+.body2 {
+    margin: 0px;
+}
+
+.b3 {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 150px;
+    font-size: 150px;
+    font-family: "f3";
+    cursor: pointer;
+}
+
+.b4 {
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 280px;
+    font-size: 100px;
+    font-family: "f3";
+    cursor: pointer;
+}
+
+.b5 {
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 220px;
+    font-size: 200px;
+    font-family: "f3";
+    cursor: pointer;
+}
+
+.b6 {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 860px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "f4";
+}
+
+.iconmain {
+    position: absolute;
+    height: 200px;
+    margin-top: 690px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.b7 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 900px;
+    height: 500px;
+    width: 600px;
+    font-size: 100px;
+}
+
+.b8 {
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 250px;
+    height: 66px;
+    color: aqua;
+    font-size: 50px;
+    font-family: "f2";
+    background-color: rgba(0, 0, 0, 0.432);
+    border: none;
+    border-radius: 10px;
+}
+
+.b8:hover {
+    font-size: 60px;
+    color: black;
+    background-color: rgba(0, 255, 255, 0.507);
+    cursor: pointer;
+}
+
+.b9 {
+    margin-left: 180px;
+    margin-top: -180px;
+    width: 180px;
+    height: 40px;
+    font-family: "f2";
+    font-size: 35px;
+    color: aqua;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+}
+
+.b9:hover {
+    font-size: 40px;
+    color: black;
+    background-color: rgba(8, 252, 101, 0.507);
+    cursor: pointer;
+    height: 50px;
+}
+
+.b10 {
+    margin-left: 80px;
+    margin-top: -100px;
+    width: 150px;
+    height: 36px;
+    font-family: "f2";
+    font-size: 22px;
+    color: aqua;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+}
+
+.b10:hover {
+    font-size: 40px;
+    color: black;
+    background-color: rgba(218, 36, 36, 0.507);
+    cursor: pointer;
+    height: 50px;
+}
+
+.won {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+
+    background-image: url("bg3.jpg");
+    background-size: cover;
+
+    font-family: "f2";
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    visibility: hidden;
+
+}
+
+.victory {
+    height: 500px;
+}
+
+.wonswd {
+    margin-top: -300px;
+    height: 340px;
+}
+
+.wonscore {
+    color: white;
+}
+
+.tson {
+    font-size: 120px;
+}
+
+.btn3 {
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 780px;
+    height: 100px;
+    width: 400px;
+}
+
+.btn31 {
+    height: 40px;
+    width: 150px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: "f4";
+    border: none;
+    border-radius: 7px;
+    color: black;
+    background-color: aqua;
+}
+
+.btn32 {
+    height: 40px;
+    width: 150px;
+    font-size: 25px;
+    font-family: "f4";
+    border: none;
+    border-radius: 7px;
+    color: black;
+    background-color: aqua;
+}
+
+.btn31:hover {
+    font-size: 30px;
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.575);
+    cursor: pointer;
+}
+
+.btn32:hover {
+    font-size: 30px;
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.575);
+    cursor: pointer;
+}
+
+.help1 {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg5.jpg");
+    background-size: cover;
+}
+
+.helpbody {
+    margin: 0px;
+}
+
+.boy2 {
+    position: absolute;
+    height: 500px;
+    margin-top: 406px;
+    margin-left: 100px;
+}
+
+.cn {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 280px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "f2";
+    color: white;
+}
+
+.cn1 {
+    margin-left: 20px;
+    font-family: "f5";
+}
+
+.cn2 {
+    margin-left: 70px;
+    font-size: 80px
+}
+
+.cn3 {
+    position: absolute;
+    width: 380px;
+    height: 140px;
+    margin-left: 1300px;
+    margin-top: 30px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "f2";
+    color: rgb(0, 247, 255);
+}
+
+.ul1 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-left: 1170px;
+    margin-top: 320px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.705);
+    border: none;
+    border-radius: 10px;
+    font-size: 40PX;
+    font-weight: bold;
+    font-family: "f4"
+}
+
+.ul1:hover {
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: "f1";
+    src: url("f1.ttf");
+}
+
+@font-face {
+    font-family: "f2";
+    src: url("f2.otf");
+}
+
+@font-face {
+    font-family: "f3";
+    src: url("f3.otf");
+}
+
+@font-face {
+    font-family: "f4";
+    src: url("f4.otf");
+}
+
+@font-face {
+    font-family: "f5";
+    src: url("f5.ttf");
+}
