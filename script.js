@@ -46,18 +46,18 @@ function key(event) {
 
 // Audio //
 
-var rs = new Audio("run.mp3");
+var rs = new Audio("assets\audio\run.mp3");
 rs.loop = true;
 
-var js = new Audio("haya_jump.mp3");
+var js = new Audio("assets\audio\haya_jump.mp3");
 
-var hs = new Audio("haya_select.mp3");
+var hs = new Audio("assets\audio\haya_select.mp3");
 
-var ss = new Audio("haya_start.mp3");
+var ss = new Audio("assets\audio\haya_start.mp3");
 
-var hw = new Audio("haya_win.mp3");
+var hw = new Audio("assets\audio\haya_win.mp3");
 
-var ds = new Audio("haya_death.mp3");
+var ds = new Audio("assets\audio\haya_death.mp3");
 
 
 
@@ -71,7 +71,7 @@ function sword() {
 
         var i = document.createElement("img");
 
-        i.src = "sword.gif";
+        i.src = "assets\sword.gif";
 
         i.className = "sword";
 
@@ -126,7 +126,7 @@ function run() {
         r = 1;
     }
 
-    rimg.src = "Run (" + r + ").png";
+    rimg.src = "assets\images\run\Run (" + r + ").png";
 
 }
 
@@ -150,7 +150,7 @@ function updateScore() {
 
         var t = document.createElement("img");
 
-        t.src = "Target.gif";
+        t.src = "assets\Target.gif";
 
         t.className = "target";
 
@@ -278,7 +278,7 @@ function jump() {
 
     }
 
-    jimg.src = "Jump (" + j + ").png";
+    jimg.src = "assets\images\jump\Jump (" + j + ").png";
 
 }
 
@@ -305,7 +305,7 @@ function dead() {
         document.getElementById("endscore").innerHTML = u;
     }
 
-    dimg.src = "Dead (" + d + ").png";
+    dimg.src = "assets\images\dead\Dead (" + d + ").png";
 
 }
 
@@ -365,7 +365,7 @@ function boy2() {
     }
 
 
-    boy2.src = "Boy (" + b2 + ").png";
+    boy2.src = "assets\images\boy\Boy (" + b2 + ").png";
 }
 
 
