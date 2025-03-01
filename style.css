@@ -2,7 +2,7 @@
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-image: url("background.png");
+    background-image: url("assets/images/background/bg1.png");
     background-size: cover;
 
     background-repeat: repeat-x;
@@ -50,7 +50,7 @@
     height: 100vh;
     width: 100%;
 
-    background-image: url("bg4.jpg");
+    background-image: url("assets/images/background/bg4.jpg");
     background-size: cover;
 
     font-family: "f4";
@@ -113,7 +113,7 @@
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-image: url("bg2.png");
+    background-image: url("assets/images/background/bg2.png");
     background-size: cover;
 }
 
@@ -241,7 +241,7 @@
     height: 100vh;
     width: 100%;
 
-    background-image: url("bg3.jpg");
+    background-image: url("assets/images/background/bg3.jpg");
     background-size: cover;
 
     font-family: "f2";
@@ -323,7 +323,7 @@
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-image: url("bg5.jpg");
+    background-image: url("assets/images/background/bg5.jpg");
     background-size: cover;
 }
 
@@ -396,25 +396,25 @@
 
 @font-face {
     font-family: "f1";
-    src: url("f1.ttf");
+    src: url("assets/fonts/f1.ttf");
 }
 
 @font-face {
     font-family: "f2";
-    src: url("f2.otf");
+    src: url("assets/fonts/f2.otf");
 }
 
 @font-face {
     font-family: "f3";
-    src: url("f3.otf");
+    src: url("assets/fonts/f3.otf");
 }
 
 @font-face {
     font-family: "f4";
-    src: url("f4.otf");
+    src: url("assets/fonts/f4.otf");
 }
 
 @font-face {
     font-family: "f5";
-    src: url("f5.ttf");
+    src: url("assets/fonts/f5.ttf");
 }
